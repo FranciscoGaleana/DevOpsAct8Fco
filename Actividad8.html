@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pingüino</title>
+    <title>Pingüinos</title>
     <style>
         body {
             display: flex;
@@ -18,29 +18,54 @@
         h1 {
             color: #333;
         }
+        .pingüino-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        pre {
+            font-size: 30px;
+            margin: 0 20px;
+        }
+        .svg-container {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <h1>¡Bienvenido a mi repositorio de GitHub!</h1>
-    <svg width="200" height="300" viewBox="0 0 200 300">
-        <!-- Cuerpo -->
-        <ellipse cx="100" cy="200" rx="70" ry="100" fill="black" />
-        <!-- Barriga -->
-        <ellipse cx="100" cy="230" rx="50" ry="70" fill="white" />
-        <!-- Cabeza -->
-        <ellipse cx="100" cy="120" rx="50" ry="50" fill="black" />
-        <!-- Ojos -->
-        <circle cx="85" cy="110" r="8" fill="white" />
-        <circle cx="115" cy="110" r="8" fill="white" />
-        <circle cx="85" cy="110" r="4" fill="black" />
-        <circle cx="115" cy="110" r="4" fill="black" />
-        <!-- Pico -->
-        <polygon points="100,120 90,135 110,135" fill="orange" />
-        <!-- Alas -->
-        <ellipse cx="30" cy="200" rx="20" ry="50" fill="black" />
-        <ellipse cx="170" cy="200" rx="20" ry="50" fill="black" />
-        <!-- Detalles del cuerpo -->
-        <ellipse cx="100" cy="240" rx="40" ry="30" fill="black" opacity="0.3" />
-    </svg>
+    <div class="pingüino-container">
+        <div class="svg-container">
+            <svg width="200" height="300" viewBox="0 0 200 300">
+                <!-- Cuerpo -->
+                <ellipse cx="100" cy="200" rx="70" ry="100" fill="black" />
+                <!-- Barriga -->
+                <ellipse cx="100" cy="230" rx="50" ry="70" fill="white" />
+                <!-- Cabeza -->
+                <ellipse cx="100" cy="120" rx="50" ry="50" fill="black" />
+                <!-- Ojos -->
+                <circle cx="85" cy="110" r="8" fill="white" />
+                <circle cx="115" cy="110" r="8" fill="white" />
+                <circle cx="85" cy="110" r="4" fill="black" />
+                <circle cx="115" cy="110" r="4" fill="black" />
+                <!-- Pico -->
+                <polygon points="100,120 90,135 110,135" fill="orange" />
+                <!-- Alas -->
+                <ellipse cx="30" cy="200" rx="20" ry="50" fill="black" />
+                <ellipse cx="170" cy="200" rx="20" ry="50" fill="black" />
+                <!-- Detalles del cuerpo -->
+                <ellipse cx="100" cy="240" rx="40" ry="30" fill="black" opacity="0.3" />
+            </svg>
+        </div>
+        <pre>
+          .--.
+         |o_o |
+         |:_/ |
+        //   \ \
+       (|     | )
+      /'\_   _/`\
+      \___)=(___/
+        </pre>
+    </div>
 </body>
 </html>
